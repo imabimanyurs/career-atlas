@@ -6,7 +6,7 @@ React/Vite/Tailwind and accessible Radix/shadcn-style UI components; NestJS feat
 
 The Docker build generates Prisma Client, runs adapter/domain tests and builds React. Startup applies committed additive migrations. The web process creates a SQLite backup on the original volume and imports user profile, application notes, statuses, contacts, preparation and existing sessions transactionally. The original SQLite file is retained. A MigrationRecord prevents repeat imports. Migration counts are logged; never remove the existing volume until exports and retention requirements are met.
 
-Set DATABASE_URL to the Railway Postgres private reference. Preserve TRACKER_PASSWORD and APIFY_TOKEN. Web: node backend/start.mjs. Worker: the same image with ROLE=worker and no health check. Start the worker only after the web migration reports DATABASE_READY. Staging with BUILD_ONLY=1 applies the schema and runs synthetic database and HTTP endpoint checks (fixtures removed) without loading private workspace records.
+Set DATABASE_URL to the Railway Postgres private reference. Preserve TRACKER_PASSWORD and APIFY_TOKEN. Web: node backend/start.mjs. Worker: the same image with ROLE=worker and its internal /healthz endpoint (no public domain needed). Start the worker only after the web migration reports DATABASE_READY. Staging with BUILD_ONLY=1 applies the schema and runs synthetic database and HTTP endpoint checks (fixtures removed) without loading private workspace records.
 
 ## Ingestion
 
