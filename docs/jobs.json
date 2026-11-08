@@ -1,0 +1,41 @@
+{
+  "jobs": [
+    {
+      "id": "SAP::451974",
+      "company": "SAP",
+      "country": "Germany",
+      "role": "(Senior) Full-Stack Developer – SAP CFS",
+      "salary": "Not listed",
+      "location": "Berlin, Germany; hybrid",
+      "experience": "3+ years",
+      "skills": "Java / Go, Angular, JavaScript / TypeScript; GitHub, Jenkins, JIRA; Docker, Kubernetes and SAP BTP advantageous",
+      "authorisation": "Work-authorisation and visa support not specified. Confirm with recruiter before applying from India.",
+      "jobId": "451974",
+      "officialUrl": "https://careers.sap.com/job/Berlin-(Senior)-Full-Stack-Developer-(fmd)-SAP-CFS-(Commercial-Foundation-Services)-10557/1442375533/",
+      "postedAt": "2026-10-28",
+      "verifiedAt": "2026-11-08T11:34:44.165Z",
+      "evidence": "Official SAP vacancy page shows an Apply now control, requisition 451974, Berlin, and 3+ years of professional software development experience.",
+      "sponsorship": "Uncertain",
+      "sponsorshipEvidence": "No explicit visa sponsorship commitment found on the vacancy page.",
+      "source": "Official career page",
+      "verification": "Verified current",
+      "fit": "Partial fit",
+      "gaps": "Angular / SAP UI5; assess Go, Kubernetes and SAP BTP. Java and experience align, but React is not the requested UI framework."
+    }
+  ],
+  "runs": [
+    {
+      "at": "2026-11-08T11:34:44.165Z",
+      "type": "Initial verification",
+      "checkedCompanies": [
+        "SAP"
+      ],
+      "checkedCount": 1,
+      "targetCount": 403,
+      "notCheckedCount": 402,
+      "governmentCoverage": "Not checked in this initial verification",
+      "summary": "SAP official vacancy checked. No exhaustive company scan completed."
+    }
+  ],
+  "updatedAt": "2026-11-08T11:34:44.165Z"
+}
