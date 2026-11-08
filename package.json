@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "node server/app.mjs",
-    "test": "node --test server/backend.test.mjs",
+    "test": "node --test server/*.test.mjs",
     "build": "node scripts/build-backend.mjs"
   },
   "engines": {"node": ">=24"}

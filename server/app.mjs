@@ -4,13 +4,18 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { openStore } from './store.mjs';
+import { createCollector } from './apify-collector.mjs';
+import { boardEligible } from './job-policy.mjs';
 const hash=v=>createHash('sha256').update(v).digest('hex');
 const equal=(a,b)=>timingSafeEqual(Buffer.from(hash(a)),Buffer.from(hash(b)));
-export function createApp({dataPath,password,secure=true,fetcher=fetch,root=process.cwd()}){
+export function createApp({dataPath,password,secure=true,fetcher=fetch,apifyToken='',root=process.cwd()}){
   if(!password||password.length<16)throw Error('Set TRACKER_PASSWORD to a unique password of at least 16 characters in Railway Variables.');
   const initial=JSON.parse(readFileSync(resolve(root,'server/default-state.json'),'utf8'));
   const seed=JSON.parse(readFileSync(resolve(root,'docs/jobs.json'),'utf8'));
   const store=openStore(dataPath,initial,seed),passwordVersion=hash(password),attempts=new Map();
+  const collector=createCollector({store,token:apifyToken,root,fetcher});
+  const combinedFeed=()=>collector.combine(store.getFeed());
+  function workspace(){const s=store.read(combinedFeed());const sources=collector.sources();s.jobs=s.jobs.map(j=>({...j,discoveryEligible:boardEligible(j,sources)}));return {...s,collector:collector.status(),feedError};}
   const frontend=readFileSync(resolve(root,'frontend/index.html'),'utf8'),login=readFileSync(resolve(root,'frontend/login.html'),'utf8');
   let feedError='',refreshing;
   async function refreshFeed(){if(refreshing)return refreshing;refreshing=(async()=>{try{const r=await fetcher('https://raw.githubusercontent.com/imabimanyurs/career-atlas/main/docs/jobs.json',{signal:AbortSignal.timeout(15000),headers:{'accept':'application/json'}});if(!r.ok)throw Error('Feed HTTP '+r.status);const text=await r.text();if(text.length>8000000)throw Error('Feed too large');store.setFeed(JSON.parse(text));feedError='';return true;}catch{feedError='Job feed refresh failed. Previously saved openings remain available.';return false;}finally{refreshing=null}})();return refreshing;}
@@ -39,21 +44,23 @@ export function createApp({dataPath,password,secure=true,fetcher=fetch,root=proc
       if(p==='/login'&&req.method==='GET')return authenticated(req)?redirect('/'):html(login);
       if(!authenticated(req))return p.startsWith('/api/')?send({error:'Sign in required'},401):redirect('/login');
       if(p==='/api/logout'&&req.method==='POST'){const token=(req.headers.cookie||'').match(/atlas_session=([a-f0-9]{64})/)?.[1];if(token)store.db.prepare('DELETE FROM sessions WHERE hash=?').run(hash(token));res.setHeader('Set-Cookie','atlas_session=; HttpOnly; SameSite=Strict; Path=/; Max-Age=0'+(secure?'; Secure':''));return send({ok:true})}
-      if(p==='/api/state'&&req.method==='GET')return send({...store.read(),feedError});
-      if(p==='/api/state'&&req.method==='PUT'){const s=await body(req);const result=store.save(s,s.revision);return send(result,result.status||200)}
-      if(p==='/api/feed'&&req.method==='GET')return send(store.getFeed());
+      if(p==='/api/state'&&req.method==='GET')return send(workspace());
+      if(p==='/api/state'&&req.method==='PUT'){const s=await body(req);const result=store.save(s,s.revision,combinedFeed());return send(result,result.status||200)}
+      if(p==='/api/collector'&&req.method==='GET')return send(collector.status());
+      if(p==='/api/collector/run'&&req.method==='POST'){await body(req);return send(await collector.tick({force:true}))}
+      if(p==='/api/feed'&&req.method==='GET')return send(combinedFeed());
       if(p==='/api/feed/refresh'&&req.method==='POST'){await body(req);const ok=await refreshFeed();return send({ok,error:feedError},ok?200:502)}
       if(p==='/'&&req.method==='GET')return html(frontend);
       return send({error:'Not found'},404);
     }catch(e){send({error:e.status?e.message:'Request failed'},e.status||500)}
   }
-  return {handle,store,refreshFeed,close(){store.close()}};
+  return {handle,store,refreshFeed,collector,close(){store.close()}};
 }
 if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   if(process.env.RAILWAY_PROJECT_ID&&!process.env.RAILWAY_VOLUME_MOUNT_PATH)throw Error('Attach a Railway volume mounted at /data before starting.');
   const dir=process.env.RAILWAY_VOLUME_MOUNT_PATH||process.env.DATA_DIR||'./data';
-  const app=createApp({dataPath:resolve(dir,'career-atlas.sqlite'),password:process.env.TRACKER_PASSWORD,secure:process.env.NODE_ENV==='production'});
+  const app=createApp({dataPath:resolve(dir,'career-atlas.sqlite'),password:process.env.TRACKER_PASSWORD,secure:process.env.NODE_ENV==='production',apifyToken:process.env.APIFY_TOKEN});
   const server=createServer(app.handle);server.listen(Number(process.env.PORT)||3000,'0.0.0.0',()=>console.log('Career Atlas listening'));
-  app.refreshFeed();const timer=setInterval(()=>app.refreshFeed(),600000);timer.unref();
-  process.on('SIGTERM',()=>{clearInterval(timer);server.close(()=>{app.close();process.exit(0)})});
+  app.refreshFeed();app.collector.tick();const timer=setInterval(()=>app.refreshFeed(),600000);timer.unref();const crawlerTimer=setInterval(()=>app.collector.tick(),60000);crawlerTimer.unref();
+  process.on('SIGTERM',()=>{clearInterval(timer);clearInterval(crawlerTimer);server.close(()=>{app.close();process.exit(0)})});
 }

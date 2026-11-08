@@ -20,8 +20,8 @@ export function openStore(path,initial,seedFeed){
   db.prepare('INSERT OR IGNORE INTO feed(id,body) VALUES(1,?)').run(JSON.stringify(seedFeed));
   const getFeed=()=>JSON.parse(db.prepare('SELECT body FROM feed WHERE id=1').get().body);
   return {db,getFeed,setFeed(feed){if(!Array.isArray(feed.jobs)||!Array.isArray(feed.runs))throw Error('Invalid feed');db.prepare('UPDATE feed SET body=? WHERE id=1').run(JSON.stringify(feed));},
-    read(){const row=db.prepare('SELECT body,revision FROM workspace WHERE id=1').get();return {...mergeFeed(JSON.parse(row.body),getFeed()),revision:row.revision};},
-    save(s,revision){if(!validState(s))return {error:'Invalid workspace',status:400};if(!Number.isInteger(revision))return {error:'Missing revision',status:409};const merged=mergeFeed(s,getFeed());delete merged.revision;const result=db.prepare('UPDATE workspace SET body=?,revision=revision+1 WHERE id=1 AND revision=?').run(JSON.stringify(merged),revision);return result.changes?{ok:true,revision:revision+1}:{error:'Another device saved changes. Export your edits, then reload before retrying.',status:409};},
+    read(feedOverride){const row=db.prepare('SELECT body,revision FROM workspace WHERE id=1').get();return {...mergeFeed(JSON.parse(row.body),feedOverride||getFeed()),revision:row.revision};},
+    save(s,revision,feedOverride){if(!validState(s))return {error:'Invalid workspace',status:400};if(!Number.isInteger(revision))return {error:'Missing revision',status:409};const merged=mergeFeed(s,feedOverride||getFeed());delete merged.revision;const result=db.prepare('UPDATE workspace SET body=?,revision=revision+1 WHERE id=1 AND revision=?').run(JSON.stringify(merged),revision);return result.changes?{ok:true,revision:revision+1}:{error:'Another device saved changes. Export your edits, then reload before retrying.',status:409};},
     close(){db.close();}
   };
 }
