@@ -165,6 +165,62 @@
         "/adyen/",
         "/vacancies/"
       ]
+    },
+    {
+      "company": "BEL",
+      "url": "https://bel-india.in/job-notifications/",
+      "hosts": [
+        "bel-india.in",
+        "www.bel-india.in"
+      ],
+      "ownershipEvidenceUrl": "https://bel-india.in/job-notifications/",
+      "kind": "government",
+      "provider": "government",
+      "approved": true,
+      "allowedPaths": []
+    },
+    {
+      "company": "BHEL",
+      "url": "https://careers.bhel.in/",
+      "hosts": [
+        "careers.bhel.in",
+        "www.bhel.com",
+        "bhel.com"
+      ],
+      "ownershipEvidenceUrl": "https://www.bhel.com/recruitment",
+      "kind": "government",
+      "provider": "government",
+      "approved": true,
+      "allowedPaths": []
+    },
+    {
+      "company": "ECIL",
+      "url": "https://www.ecil.co.in/jobopenings",
+      "hosts": [
+        "www.ecil.co.in",
+        "ecil.co.in"
+      ],
+      "ownershipEvidenceUrl": "https://www.ecil.co.in/jobopenings",
+      "kind": "government",
+      "provider": "government",
+      "approved": true,
+      "allowedPaths": []
+    },
+    {
+      "company": "C-DAC",
+      "url": "https://www.cdac.in/index.aspx?id=current_jobs",
+      "hosts": [
+        "www.cdac.in",
+        "cdac.in",
+        "www.cdac.gov.in",
+        "cdac.gov.in",
+        "careers.cdac.in"
+      ],
+      "ownershipEvidenceUrl": "https://www.cdac.in/index.aspx?id=current_jobs",
+      "kind": "government",
+      "provider": "government",
+      "approved": true,
+      "allowedPaths": []
     }
   ]
 }
