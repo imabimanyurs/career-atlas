@@ -1,4 +1,7 @@
 dist/
 outputs/
+data/
 node_modules/
-.env*
+.env
+.env.local
+site.tar.gz

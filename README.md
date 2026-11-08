@@ -1,15 +1,17 @@
 # Career Atlas
 
-Searchable software engineering job board, browser-saved application tracker, company watchlist, referral workflow and preparation dashboard.
+Job board and private application tracker for overseas software engineering roles, with a 403-company watchlist, referral workflow and interview preparation dashboard.
 
-## Publish
+## Railway backend
 
-In repository Settings → Pages, choose Deploy from a branch, main, /docs, then Save. No build or paid service is required.
+Node 24, SQLite, password-protected sessions and persistent Railway volume storage. Follow RAILWAY_SETUP.md. The Dockerfile builds without external package installation. npm test checks authentication, CSRF, durable storage, revision conflicts and feed updates that preserve application fields.
 
-## Data
+Set TRACKER_PASSWORD in Railway Variables, attach /data and deploy main. Open the Railway domain to use the synced tracker. Do not commit credentials or personal application records.
 
-The public jobs feed is docs/jobs.json. See SEARCH_WORKFLOW.md for research and verification rules. companies.json contains the 403-company watchlist. The scheduled search task updates the public feed, not personal application records.
+## Daily openings
 
-Application statuses, interview stages, dates, contacts and notes are saved only in localStorage in the current browser. Export JSON in Settings before changing devices or clearing browser data. Personal tracker data is not uploaded to GitHub.
+The scheduled search updates public docs/jobs.json. The backend checks for updates at startup and every ten minutes. Personal application statuses, referrals, interview stages and notes are saved separately in the private database. SEARCH_WORKFLOW.md describes research evidence and coverage reporting.
 
-Daily feed updates preserve application fields. Existing vacancy verification expires after 48 hours. Evidence is recorded by the researcher; a checked label is not an independent guarantee of sponsorship. Inspect the official application page before acting.
+## Static version
+
+docs/index.html still works on GitHub Pages, with browser-local data. To migrate, export JSON from its Settings and import into the Railway app. The import replaces the private server workspace after confirmation.
