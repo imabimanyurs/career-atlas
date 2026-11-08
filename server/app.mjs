@@ -61,6 +61,7 @@ if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   const dir=process.env.RAILWAY_VOLUME_MOUNT_PATH||process.env.DATA_DIR||'./data';
   const app=createApp({dataPath:resolve(dir,'career-atlas.sqlite'),password:process.env.TRACKER_PASSWORD,secure:process.env.NODE_ENV==='production',apifyToken:process.env.APIFY_TOKEN});
   const server=createServer(app.handle);server.listen(Number(process.env.PORT)||3000,'0.0.0.0',()=>console.log('Career Atlas listening'));
+  const startup=app.collector.status();console.log('APIFY_COLLECTOR '+JSON.stringify({configured:startup.configured,phase:startup.phase,lastStartedAt:startup.lastStartedAt,lastError:startup.lastError}));
   app.refreshFeed();app.collector.tick();const timer=setInterval(()=>app.refreshFeed(),600000);timer.unref();const crawlerTimer=setInterval(()=>app.collector.tick(),60000);crawlerTimer.unref();
   process.on('SIGTERM',()=>{clearInterval(timer);clearInterval(crawlerTimer);server.close(()=>{app.close();process.exit(0)})});
 }
