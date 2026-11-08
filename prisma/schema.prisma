@@ -1,0 +1,271 @@
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+model User {
+  id String @id @default(cuid())
+  key String @unique
+  profile Json @default("{}")
+  createdAt DateTime @default(now())
+  sessions Session[]
+  applications Application[]
+  referrals Referral[]
+  prepTasks PrepTask[]
+  savedSearches SavedSearch[]
+  alerts Alert[]
+  targets TargetCompany[]
+  matches JobMatch[]
+}
+model Session {
+  hash String @id
+  userId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  passwordVersion String
+  @@index([expiresAt])
+}
+model Company {
+  id String @id @default(cuid())
+  name String @unique
+  aliases String[] @default([])
+  website String?
+  kind String @default("company")
+  sources CompanySource[]
+  jobs Job[]
+  targets TargetCompany[]
+  referrals Referral[]
+  notices GovernmentNotice[]
+}
+model TargetCompany {
+  id String @id @default(cuid())
+  userId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  companyId String
+  company Company @relation(fields: [companyId], references: [id])
+  saved Boolean @default(false)
+  priority Int @default(2)
+  stage String @default("Research")
+  country String @default("")
+  notes String @default("")
+  contact String @default("")
+  @@unique([userId, companyId])
+}
+model CompanySource {
+  id String @id @default(cuid())
+  companyId String
+  company Company @relation(fields: [companyId], references: [id])
+  provider String
+  url String
+  tenant String @default("")
+  config Json @default("{}")
+  ownershipEvidenceUrl String
+  approved Boolean @default(false)
+  enabled Boolean @default(true)
+  health String @default("never_checked")
+  lastError String @default("")
+  lastCheckedAt DateTime?
+  lastSuccessAt DateTime?
+  nextDueAt DateTime @default(now())
+  jobs Job[]
+  runs SourceRun[]
+  @@unique([companyId, url])
+  @@index([enabled, nextDueAt])
+}
+model Job {
+  id String @id @default(cuid())
+  identity String @unique
+  companyId String
+  company Company @relation(fields: [companyId], references: [id])
+  sourceId String?
+  source CompanySource? @relation(fields: [sourceId], references: [id])
+  externalId String
+  requisitionId String @default("")
+  title String
+  description String @default("")
+  country String @default("")
+  location String @default("")
+  locations Json @default("[]")
+  workplace String @default("Unspecified")
+  employmentType String @default("Unspecified")
+  experience String @default("")
+  salaryMin Float?
+  salaryMax Float?
+  salaryCurrency String @default("")
+  salaryPeriod String @default("")
+  salaryText String @default("")
+  skills String[] @default([])
+  requiredSkills String[] @default([])
+  authorisation String @default("Unspecified")
+  sponsorship String @default("Unspecified")
+  sponsorshipEvidence String @default("")
+  sponsorshipEvidenceUrl String @default("")
+  postingUrl String
+  applyUrl String
+  sourcePublishedAt DateTime?
+  sourceRepublishedAt DateTime?
+  sourceUpdatedAt DateTime?
+  dateMeaning String @default("unknown")
+  firstSeenAt DateTime @default(now())
+  lastSeenAt DateTime @default(now())
+  lastVerifiedAt DateTime?
+  closedAt DateTime?
+  availability String @default("open")
+  missingScans Int @default(0)
+  contentHash String
+  duplicateKey String
+  evidence Json @default("{}")
+  applications Application[]
+  changes JobChange[]
+  matches JobMatch[]
+  @@unique([sourceId, externalId])
+  @@index([country, availability, sourcePublishedAt])
+  @@index([lastSeenAt, id])
+  @@index([duplicateKey])
+}
+model JobChange {
+  id String @id @default(cuid())
+  jobId String
+  job Job @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  summary String
+  before Json
+  after Json
+}
+model JobMatch {
+  id String @id @default(cuid())
+  userId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  jobId String
+  job Job @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  score Int
+  gaps String[] @default([])
+  reasons Json @default("[]")
+  updatedAt DateTime @updatedAt
+  @@unique([userId, jobId])
+  @@index([userId, score, jobId])
+}
+model Application {
+  id String @id @default(cuid())
+  userId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  jobId String
+  job Job @relation(fields: [jobId], references: [id])
+  status String @default("Saved")
+  appliedAt DateTime?
+  interviewStage String @default("")
+  interviewAt DateTime?
+  referralContact String @default("")
+  notes String @default("")
+  skillGaps String @default("")
+  resumeVersion String @default("")
+  nextAction String @default("")
+  followUpAt DateTime?
+  version Int @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  events ApplicationEvent[]
+  @@unique([userId, jobId])
+  @@index([userId, status, updatedAt])
+}
+model ApplicationEvent {
+  id String @id @default(cuid())
+  applicationId String
+  application Application @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+  fromStatus String?
+  toStatus String
+  note String @default("")
+  createdAt DateTime @default(now())
+}
+model Referral {
+  id String @id @default(cuid())
+  userId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  companyId String
+  company Company @relation(fields: [companyId], references: [id])
+  name String
+  contactUrl String @default("")
+  stage String @default("Identified")
+  notes String @default("")
+  followUpAt DateTime?
+}
+model PrepTask {
+  id String @id @default(cuid())
+  userId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title String
+  category String @default("General")
+  skill String @default("")
+  done Boolean @default(false)
+  dueAt DateTime?
+  createdAt DateTime @default(now())
+}
+model SavedSearch {
+  id String @id @default(cuid())
+  userId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name String
+  filters Json
+  alertsEnabled Boolean @default(true)
+  lastCheckedAt DateTime @default(now())
+}
+model Alert {
+  id String @id @default(cuid())
+  userId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  dedupKey String
+  title String
+  body String
+  jobId String?
+  readAt DateTime?
+  createdAt DateTime @default(now())
+  @@unique([userId, dedupKey])
+}
+model SourceRun {
+  id String @id @default(cuid())
+  sourceId String
+  source CompanySource @relation(fields: [sourceId], references: [id])
+  scheduleKey String @unique
+  status String @default("queued")
+  attempts Int @default(0)
+  availableAt DateTime @default(now())
+  leaseUntil DateTime?
+  startedAt DateTime?
+  finishedAt DateTime?
+  externalRunId String?
+  datasetId String?
+  counts Json @default("{}")
+  complete Boolean @default(false)
+  error String @default("")
+  costCapUsd Float @default(0)
+  @@index([status, availableAt])
+}
+model GovernmentNotice {
+  id String @id @default(cuid())
+  companyId String
+  company Company @relation(fields: [companyId], references: [id])
+  url String @unique
+  title String
+  advertisementId String @default("")
+  publishedAt DateTime?
+  deadline DateTime?
+  requirements String @default("")
+  reviewStatus String @default("Needs review")
+  lastSeenAt DateTime @default(now())
+}
+model MigrationRecord {
+  key String @id
+  details Json
+  createdAt DateTime @default(now())
+}
+model WebhookReceipt {
+  id String @id
+  receivedAt DateTime @default(now())
+}
+model LoginAttempt {
+  key String @id
+  count Int @default(0)
+  resetAt DateTime
+}

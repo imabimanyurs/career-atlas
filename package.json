@@ -1,11 +1,7 @@
 {
-  "name": "career-atlas",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "start": "node server/app.mjs",
-    "test": "node --test server/*.test.mjs",
-    "build": "node scripts/build-backend.mjs"
-  },
-  "engines": {"node": ">=24"}
+  "name":"career-atlas","version":"2.0.0","private":true,"type":"module",
+  "scripts":{"start":"node backend/start.mjs","dev":"vite --host 0.0.0.0","build":"vite build","test":"node --test backend/*.test.mjs","legacy:start":"node server/app.mjs","db:generate":"prisma generate","db:migrate":"prisma migrate deploy"},
+  "engines":{"node":">=24"},
+  "dependencies":{"@nestjs/common":"11.1.9","@nestjs/core":"11.1.9","@nestjs/platform-express":"11.1.9","@prisma/client":"6.19.0","prisma":"6.19.0","reflect-metadata":"0.2.2","rxjs":"7.8.2","express":"5.1.0","cheerio":"1.1.2","react":"19.2.0","react-dom":"19.2.0","react-router-dom":"7.9.5","@tanstack/react-query":"5.90.5","@radix-ui/react-dialog":"1.1.15","class-variance-authority":"0.7.1","clsx":"2.1.1","tailwind-merge":"3.3.1","lucide-react":"0.548.0"},
+  "devDependencies":{"vite":"7.2.2","@vitejs/plugin-react":"5.1.0","tailwindcss":"4.1.17","@tailwindcss/vite":"4.1.17"}
 }

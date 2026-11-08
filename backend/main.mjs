@@ -1,0 +1,16 @@
+import 'reflect-metadata';
+import { NestFactory } from '@nestjs/core';
+import { Module } from '@nestjs/common';
+import express from 'express';
+import { resolve } from 'node:path';
+import { initialize,db } from './repository.mjs';
+import { featureModules } from './api.mjs';
+import { hash } from './domain.mjs';
+if(!process.env.TRACKER_PASSWORD||process.env.TRACKER_PASSWORD.length<16)throw Error('TRACKER_PASSWORD must be configured');
+await initialize();class AppModule{}Module({imports:featureModules})(AppModule);
+const app=await NestFactory.create(AppModule,{bodyParser:false});app.enableShutdownHooks();app.use(express.json({limit:'8mb'}));
+app.use((req,res,next)=>{res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('X-Frame-Options','DENY');res.setHeader('Referrer-Policy','same-origin');res.setHeader('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'");if(req.path.startsWith('/api/'))res.setHeader('Cache-Control','no-store');next()});
+app.use(async(req,res,next)=>{try{if(req.path==='/healthz'){await db.$queryRawUnsafe('SELECT 1');return res.json({ok:true,version:2})}if(!req.path.startsWith('/api/'))return next();if(req.path==='/api/webhooks/apify')return next();if(!['GET','HEAD'].includes(req.method)){let good=false;try{good=new URL(req.headers.origin).host===req.headers.host}catch{}if(!good)return res.status(403).json({error:'Same-origin request required'});if(!String(req.headers['content-type']||'').startsWith('application/json'))return res.status(415).json({error:'JSON required'})}if(req.path==='/api/login')return next();const token=(req.headers.cookie||'').match(/(?:^|; )atlas_session=([a-f0-9]{64})(?:;|$)/)?.[1];const s=token?await db.session.findUnique({where:{hash:hash(token)}}):null;if(!s||s.expiresAt<new Date()||s.passwordVersion!==hash(process.env.TRACKER_PASSWORD))return res.status(401).json({error:'Sign in required'});req.ownerId=s.userId;req.sessionHash=s.hash;next()}catch{res.status(503).json({error:'Service temporarily unavailable'})}});
+app.use('/assets',express.static(resolve('web-dist/assets'),{immutable:true,maxAge:'1y'}));
+app.use((req,res,next)=>{if(!req.path.startsWith('/api/')&&req.method==='GET'){res.setHeader('Cache-Control','no-store');return res.sendFile(resolve('web-dist/index.html'))}next()});
+await app.listen(Number(process.env.PORT)||3000,'0.0.0.0');console.log('CAREER_ATLAS_V2_READY');

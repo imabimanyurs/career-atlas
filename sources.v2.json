@@ -1,0 +1,170 @@
+{
+  "sources": [
+    {
+      "company": "SAP",
+      "url": "https://careers.sap.com/go/Java-Jobs-in-Germany/840601/",
+      "hosts": [
+        "careers.sap.com"
+      ],
+      "kind": "company",
+      "provider": "html",
+      "approved": true,
+      "ownershipEvidenceUrl": "https://careers.sap.com/go/Java-Jobs-in-Germany/840601/",
+      "allowedPaths": []
+    },
+    {
+      "company": "Adyen",
+      "url": "https://careers.adyen.com/vacancies?locale=en",
+      "hosts": [
+        "careers.adyen.com"
+      ],
+      "kind": "company",
+      "provider": "html",
+      "approved": true,
+      "ownershipEvidenceUrl": "https://careers.adyen.com/vacancies?locale=en",
+      "allowedPaths": []
+    },
+    {
+      "company": "Wise",
+      "url": "https://wise.jobs/jobs",
+      "hosts": [
+        "wise.jobs"
+      ],
+      "kind": "company",
+      "provider": "html",
+      "approved": true,
+      "ownershipEvidenceUrl": "https://wise.jobs/jobs",
+      "allowedPaths": []
+    },
+    {
+      "company": "Amazon",
+      "url": "https://www.amazon.jobs/en/search?base_query=Software+Development&country=DEU&loc_query=Germany",
+      "hosts": [
+        "www.amazon.jobs",
+        "amazon.jobs"
+      ],
+      "kind": "company",
+      "provider": "html",
+      "approved": true,
+      "ownershipEvidenceUrl": "https://www.amazon.jobs/en/search?base_query=Software+Development&country=DEU&loc_query=Germany",
+      "allowedPaths": []
+    },
+    {
+      "company": "Amazon",
+      "url": "https://www.amazon.jobs/en/search?base_query=Software+Development&country=IRL&loc_query=Ireland",
+      "hosts": [
+        "www.amazon.jobs",
+        "amazon.jobs"
+      ],
+      "kind": "company",
+      "provider": "html",
+      "approved": true,
+      "ownershipEvidenceUrl": "https://www.amazon.jobs/en/search?base_query=Software+Development&country=IRL&loc_query=Ireland",
+      "allowedPaths": []
+    },
+    {
+      "company": "Google",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/?location=Germany&q=software%20engineer",
+      "hosts": [
+        "www.google.com"
+      ],
+      "kind": "company",
+      "provider": "html",
+      "approved": true,
+      "ownershipEvidenceUrl": "https://www.google.com/about/careers/applications/jobs/results/?location=Germany&q=software%20engineer",
+      "allowedPaths": [
+        "/about/careers/"
+      ]
+    },
+    {
+      "company": "Apple",
+      "url": "https://jobs.apple.com/de-de/search?location=germany-DEU",
+      "hosts": [
+        "jobs.apple.com"
+      ],
+      "kind": "company",
+      "provider": "html",
+      "approved": true,
+      "ownershipEvidenceUrl": "https://jobs.apple.com/de-de/search?location=germany-DEU",
+      "allowedPaths": []
+    },
+    {
+      "company": "ISRO",
+      "url": "https://www.isro.gov.in/CurrentOpportunities.html",
+      "hosts": [
+        "www.isro.gov.in"
+      ],
+      "kind": "government",
+      "provider": "government",
+      "approved": true,
+      "ownershipEvidenceUrl": "https://www.isro.gov.in/CurrentOpportunities.html",
+      "allowedPaths": []
+    },
+    {
+      "company": "NIELIT",
+      "url": "https://www.nielit.in/chennai/recruitments",
+      "hosts": [
+        "www.nielit.in"
+      ],
+      "kind": "government",
+      "provider": "government",
+      "approved": true,
+      "ownershipEvidenceUrl": "https://www.nielit.in/chennai/recruitments",
+      "allowedPaths": []
+    },
+    {
+      "company": "OpenAI",
+      "provider": "ashby",
+      "url": "https://jobs.ashbyhq.com/openai",
+      "tenant": "openai",
+      "approved": true,
+      "ownershipEvidenceUrl": "https://openai.com/careers/search/",
+      "hosts": [
+        "jobs.ashbyhq.com",
+        "openai.com"
+      ],
+      "allowedPaths": [
+        "/openai/",
+        "/careers/"
+      ],
+      "config": {
+        "countryDefault": ""
+      }
+    },
+    {
+      "company": "Anthropic",
+      "provider": "greenhouse",
+      "url": "https://job-boards.greenhouse.io/anthropic",
+      "tenant": "anthropic",
+      "approved": true,
+      "ownershipEvidenceUrl": "https://www.anthropic.com/careers",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io",
+        "www.anthropic.com"
+      ],
+      "allowedPaths": [
+        "/anthropic/",
+        "/careers/"
+      ]
+    },
+    {
+      "company": "Adyen",
+      "provider": "greenhouse",
+      "url": "https://job-boards.greenhouse.io/adyen",
+      "tenant": "adyen",
+      "approved": true,
+      "ownershipEvidenceUrl": "https://careers.adyen.com/vacancies?locale=en",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io",
+        "careers.adyen.com",
+        "adyen-careers.com"
+      ],
+      "allowedPaths": [
+        "/adyen/",
+        "/vacancies/"
+      ]
+    }
+  ]
+}

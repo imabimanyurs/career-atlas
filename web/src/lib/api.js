@@ -1,0 +1,6 @@
+export async function api(path,options={}){const r=await fetch('/api/'+path,{...options,headers:{...(options.body?{'content-type':'application/json'}:{}),...options.headers},body:options.body?JSON.stringify(options.body):undefined});const result=await r.json().catch(()=>({error:'Unexpected server response'}));if(!r.ok){const error=Error(result.error||result.message||'Request failed');error.status=r.status;throw error}return result}
+export function download(name,text,type='application/json'){const url=URL.createObjectURL(new Blob([text],{type}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+export const when=v=>v?new Date(v).toLocaleDateString(undefined,{day:'numeric',month:'short',year:'numeric'}):'Not specified';
+export const relative=v=>{if(!v)return 'Not checked';const mins=Math.max(0,Math.floor((Date.now()-Date.parse(v))/60000));return mins<1?'Just now':mins<60?mins+'m ago':mins<1440?Math.floor(mins/60)+'h ago':Math.floor(mins/1440)+'d ago'};
+export const salary=j=>j.salaryText||[j.salaryCurrency,j.salaryMin?.toLocaleString(),j.salaryMax?'– '+j.salaryMax.toLocaleString():'',j.salaryPeriod].filter(Boolean).join(' ')||'Salary not listed';
+export const statusList=['Saved','Applied','Interview','Offer','Rejected','Withdrawn'];
