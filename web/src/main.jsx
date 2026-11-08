@@ -1,3 +1,5 @@
+import { Companies } from './features/companies';
+import { Government } from './features/government';
 import React,{useState} from 'react';
 import { createRoot } from 'react-dom/client';
 import { QueryClient,QueryClientProvider,useQuery,useMutation } from '@tanstack/react-query';
@@ -6,7 +8,7 @@ import { LayoutDashboard,Search,Columns3,Building2,BookOpen,UserRound,RefreshCw,
 import { api } from './lib/api';
 import { Button,Input,Field,Loading,ErrorBox } from './components/ui';
 import { Jobs,JobDetail } from './features/jobs';
-import { Dashboard,Applications,Companies,Preparation,Profile,Sources,Government,Alerts } from './features/workspace';
+import { Dashboard,Applications,Preparation,Profile,Sources,Alerts } from './features/workspace';
 import { Referrals } from './features/referrals';
 import './styles.css';
 const client=new QueryClient({defaultOptions:{queries:{staleTime:30000,retry:(count,error)=>error.status!==401&&count<1,refetchOnWindowFocus:false}}});

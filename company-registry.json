@@ -1,0 +1,4087 @@
+{
+  "version": 1,
+  "priorityMeaning": "Research priority, not confirmed sponsorship",
+  "companies": [
+    {
+      "name": "23andMe",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Accenture",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Activision Blizzard",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Addepar",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Adobe",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Adyen",
+      "domain": "careers.adyen.com",
+      "careerUrl": "https://careers.adyen.com/vacancies?locale=en",
+      "sourceUrls": [
+        "https://careers.adyen.com/vacancies?locale=en",
+        "https://job-boards.greenhouse.io/adyen"
+      ],
+      "ats": [
+        "html",
+        "greenhouse"
+      ],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Official career portal verified; role-level sponsorship remains evidence-dependent."
+    },
+    {
+      "name": "Affirm",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Agoda",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "AI21 Labs",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Airbnb",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Airtable",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Akamai",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Akuna Capital",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Albertsons",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Algolia",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Alibaba",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Amazon",
+      "domain": "www.amazon.jobs",
+      "careerUrl": "https://www.amazon.jobs/en/search?base_query=Software+Development&country=DEU&loc_query=Germany",
+      "sourceUrls": [
+        "https://www.amazon.jobs/en/search?base_query=Software+Development&country=DEU&loc_query=Germany",
+        "https://www.amazon.jobs/en/search?base_query=Software+Development&country=IRL&loc_query=Ireland"
+      ],
+      "ats": [
+        "html"
+      ],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Official career portal verified; role-level sponsorship remains evidence-dependent."
+    },
+    {
+      "name": "Amazon Web Services",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "AMD",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "American Express",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Amplitude",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Anduril",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Anthropic",
+      "domain": "www.anthropic.com",
+      "careerUrl": "https://www.anthropic.com/careers",
+      "sourceUrls": [
+        "https://job-boards.greenhouse.io/anthropic"
+      ],
+      "ats": [
+        "greenhouse"
+      ],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal verified; role-level sponsorship remains evidence-dependent."
+    },
+    {
+      "name": "Anyscale",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Apple",
+      "domain": "jobs.apple.com",
+      "careerUrl": "https://jobs.apple.com/de-de/search?location=germany-DEU",
+      "sourceUrls": [
+        "https://jobs.apple.com/de-de/search?location=germany-DEU"
+      ],
+      "ats": [
+        "html"
+      ],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Official career portal verified; role-level sponsorship remains evidence-dependent."
+    },
+    {
+      "name": "Applied Intuition",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Arista Networks",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Arm",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Asana",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "ASML",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "AT&T",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Athenahealth",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Atlassian",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Aurora",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "AVEVA",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Baidu",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Bank of America",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Barclays",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "BCG",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Best Buy",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Bill.com",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Binance",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Bird",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "BlaBlaCar",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "BlackRock",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Block",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Bloomberg",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Boeing",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Bolt",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Booking",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Booz Allen Hamilton",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Box",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "BoyleSports",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Brex",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Bridgewater",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Broadcom",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Bungie",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "ByteDance",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Canva",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Capgemini",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Capital One",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "CarGurus",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Carta",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "CBC",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Cerebras",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "CGI",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Chainalysis",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Character.AI",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Checkout.com",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Chewy",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Chime",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Circle",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Cisco",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Citadel",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Citi",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "ClickHouse",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "ClickUp",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Cloudflare",
+      "domain": "www.cloudflare.com",
+      "careerUrl": "https://www.cloudflare.com/careers/jobs/",
+      "sourceUrls": [
+        "https://www.cloudflare.com/careers/jobs/"
+      ],
+      "ats": [
+        "html"
+      ],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Official career portal verified; role-level sponsorship remains evidence-dependent."
+    },
+    {
+      "name": "Cognizant",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Cohere",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Coinbase",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Comcast",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Compass",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Confluent",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Consensys",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "CoreWeave",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "CoStar",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Costco",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Coupang",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "CrowdStrike",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Cruise",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Crunchyroll",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Cursor",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Cvent",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "D. E. Shaw",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Databricks",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Datadog",
+      "domain": "careers.datadoghq.com",
+      "careerUrl": "https://careers.datadoghq.com/all-jobs/",
+      "sourceUrls": [
+        "https://careers.datadoghq.com/all-jobs/"
+      ],
+      "ats": [
+        "html"
+      ],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Official career portal verified; role-level sponsorship remains evidence-dependent."
+    },
+    {
+      "name": "dbt Labs",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Deel",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "DeepMind",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Deliveroo",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Deloitte",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Deutsche Bank",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "DiDi",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "DigitalOcean",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Discord",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Disney",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "DJI",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Docker Inc.",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "DocuSign",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "DoorDash",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Dropbox",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "DRW",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Duolingo",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "DXC Technology",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "eBay",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Elastic",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Electronic Arts",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "ElevenLabs",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "EPAM Systems",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Epic Games",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Equinix",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Ericsson",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Etsy",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "EXL",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Expedia",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "EY",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Fastly",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Fidelity",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Figma",
+      "domain": "www.figma.com",
+      "careerUrl": "https://www.figma.com/careers/",
+      "sourceUrls": [
+        "https://boards.greenhouse.io/figma/"
+      ],
+      "ats": [
+        "greenhouse"
+      ],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Official career portal verified; role-level sponsorship remains evidence-dependent."
+    },
+    {
+      "name": "Fiserv",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Fitbit",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Fivetran",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Flatiron Health",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Flipkart",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Ford",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Freshworks",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Garmin",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Gemini",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "General Dynamics",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Genpact",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "GitHub",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "GitLab",
+      "domain": "about.gitlab.com",
+      "careerUrl": "https://about.gitlab.com/jobs/",
+      "sourceUrls": [
+        "https://about.gitlab.com/jobs/"
+      ],
+      "ats": [
+        "html"
+      ],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Official career portal verified; role-level sponsorship remains evidence-dependent."
+    },
+    {
+      "name": "Glean",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Globant",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Gojek",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Goldman Sachs",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Google",
+      "domain": "www.google.com",
+      "careerUrl": "https://www.google.com/about/careers/applications/jobs/results/?location=Germany&q=software%20engineer",
+      "sourceUrls": [
+        "https://www.google.com/about/careers/applications/jobs/results/?location=Germany&q=software%20engineer"
+      ],
+      "ats": [
+        "html"
+      ],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Official career portal verified; role-level sponsorship remains evidence-dependent."
+    },
+    {
+      "name": "GoPro",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "GoTo",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Grab",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "GRAIL",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Grammarly",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Greenhouse",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Groq",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Groww",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Grubhub",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Gusto",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Harvey",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "HashiCorp",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "HBO Max",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "HCL Technologies",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Helpshift",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Hilton",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Hims And Hers",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Home Depot",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Hopper",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "HSBC",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Huawei",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "HubSpot",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Hudson River Trading",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Hugging Face",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Hyatt",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "IBM",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "iFood",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "IMC Trading",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Indeed",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Inflection",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Infosys",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Instacart",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Intel",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Intuit",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Jane Street",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "JD.com",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "JetBrains",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "JioStar",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "JPMorgan",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Jump Trading",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Just Eat Takeaway",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Kayak",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "King",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Klarna",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "KPMG",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Kroger",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "L3Harris",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Lattice",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Leidos",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Lever",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Lime",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "LINE",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Linear",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "LinkedIn",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Lockheed Martin",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Loom",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Lowe's",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "LTIMindtree",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Lucid",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Lyft",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Macy's",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Mailru VK",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "MakeMyTrip",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Mapbox",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Marqeta",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Marriott",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Marvell",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Mastercard",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "McKinsey",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Medium",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Meituan",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 2,
+      "wave": 2,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "MercadoLibre",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Mercari",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Mercury",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Meta",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Micron",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Microsoft",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Midjourney",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Millennium",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Miro",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Mistral AI",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Monday.com",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "MongoDB",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Monzo",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Morgan Stanley",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Mphasis",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "MuleSoft",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "N26",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Naver",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "NetApp",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Netflix",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Niantic",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Nintendo",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Nokia",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Nordstrom",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Northrop Grumman",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Notion",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Nubank",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Nuro",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Nutanix",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Nvidia",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Okta",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Ola",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "One Medical",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "OpenAI",
+      "domain": "openai.com",
+      "careerUrl": "https://openai.com/careers/search/",
+      "sourceUrls": [
+        "https://jobs.ashbyhq.com/openai"
+      ],
+      "ats": [
+        "ashby"
+      ],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Official career portal verified; role-level sponsorship remains evidence-dependent."
+    },
+    {
+      "name": "Opendoor",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "OpenSea",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Optiver",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Oracle",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Oracle Health",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Oscar Health",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Ozon",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Palantir",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Palo Alto Networks",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Pandora",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Paramount",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Patreon",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "PayPal",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Perplexity",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Pinterest",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Plaid",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Point72",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Polygon",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Postman",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Postmates",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Procore",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "PwC",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Qualcomm",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Rakuten",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Ramp",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Rappi",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Raytheon",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Razorpay",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Rebellion Defense",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Recursion Pharmaceuticals",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Reddit",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Redfin",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Reliance Jio",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Revolut",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Riot Games",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Ripple",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Rippling",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Rivian",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Ro",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Robinhood",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Roblox",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Rockstar",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Roku",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Rubrik",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Runway",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Salesforce",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "SambaNova",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Samsung",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "SAP",
+      "domain": "careers.sap.com",
+      "careerUrl": "https://careers.sap.com/go/Java-Jobs-in-Germany/840601/",
+      "sourceUrls": [
+        "https://careers.sap.com/go/Java-Jobs-in-Germany/840601/"
+      ],
+      "ats": [
+        "html"
+      ],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Official career portal verified; role-level sponsorship remains evidence-dependent."
+    },
+    {
+      "name": "Scale AI",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Scopely",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Sea Limited",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Segment",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "SentinelOne",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Sentry",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Sephora",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "ServiceNow",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Shield AI",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Shopee",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Shopify",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Skydio",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Skyscanner",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Slack",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Smartsheet",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Snap Inc.",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Snowflake",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Snyk",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "SoFi",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Sonos",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Sony",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "SoundCloud",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "SpaceX",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Splunk",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Spotify",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Squarespace",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Stripe",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Supercell",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Susquehanna",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Swiggy",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "T-Mobile",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Tableau",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Target",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Tata Digital",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "TCS",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Tech Mahindra",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Tekion",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Teladoc",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Tempus",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Tencent",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Tenstorrent",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Tesla",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Texas Instruments",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Thoughtworks",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Tidal",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "TikTok",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Toast",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Together AI",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Tower Research",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Toyota",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Tripadvisor",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "TSMC",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Turo",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Twilio",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Twitch",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Two Sigma",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Uber",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Ubisoft",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "UBS",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "UiPath",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Uniswap",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Unity",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Valve",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Vanguard",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Veeva",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Vercel",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Verizon",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Vimeo",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Virtu Financial",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Visa",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "VMWare",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Vrbo",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Walmart",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Wayfair",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Waymo",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Wealthfront",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Weights And Biases",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Wells Fargo",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Whoop",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Wipro",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Wise",
+      "domain": "wise.jobs",
+      "careerUrl": "https://wise.jobs/jobs",
+      "sourceUrls": [
+        "https://wise.jobs/jobs"
+      ],
+      "ats": [
+        "html"
+      ],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Official career portal verified; role-level sponsorship remains evidence-dependent."
+    },
+    {
+      "name": "Wix",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Wiz",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Wolt",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Workday",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Worldpay",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "X",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "xAI",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Yahoo",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Yandex",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Yelp",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Yext",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Zapier",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Zendesk",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 1,
+      "wave": 1,
+      "notes": "Priority-market research target. Official portal and sponsorship evidence still need verification."
+    },
+    {
+      "name": "Zillow",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Zoho",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Zomato",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Zoom",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Zoox",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Zscaler",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    },
+    {
+      "name": "Zynga",
+      "domain": null,
+      "careerUrl": null,
+      "sourceUrls": [],
+      "ats": [],
+      "priority": 3,
+      "wave": 3,
+      "notes": "Official career portal needs verification before collection."
+    }
+  ]
+}

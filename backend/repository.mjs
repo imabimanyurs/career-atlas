@@ -1,3 +1,4 @@
+import { registryFor } from './registry.mjs';
 import { PrismaClient } from '@prisma/client';
 import { readFileSync,existsSync } from 'node:fs';
 import { resolve } from 'node:path';
@@ -13,8 +14,9 @@ async function importState(state,user,client=db){let applicationCount=0;for(cons
 export async function initialize({migrateLegacy=true}={}){
 await db.$connect();const user=await db.user.upsert({where:{key:'owner'},create:{key:'owner',profile:{skills:['Java','Spring Boot','React'],countries:['Germany','Netherlands','Ireland'],experienceYears:4,needsSponsorship:true}},update:{}});
 const names=JSON.parse(readFileSync('companies.json','utf8'));await db.company.createMany({data:names.map(name=>({name})),skipDuplicates:true});
-let registry=JSON.parse(readFileSync('sources.v2.json','utf8'));
+let registry=JSON.parse(readFileSync('sources.v2.json','utf8'));registry.sources=[...registry.sources.filter(s=>s.kind!=='government'),...JSON.parse(readFileSync('government-sources.json','utf8')).sources];
 for(const s of registry.sources){const company=await db.company.upsert({where:{name:s.company},create:{name:s.company,kind:s.kind||'company'},update:{kind:s.kind||'company'}});await db.companySource.upsert({where:{companyId_url:{companyId:company.id,url:s.url}},create:{companyId:company.id,provider:s.provider||'apify',url:s.url,tenant:s.tenant||'',ownershipEvidenceUrl:s.ownershipEvidenceUrl||s.url,approved:!!s.approved,config:{hosts:s.hosts||[],allowedPaths:s.allowedPaths||[],...(s.config||{})}},update:{}})}
+for(const source of await db.companySource.findMany({include:{company:true}})){const master=registryFor(source.company.name);await db.companySource.update({where:{id:source.id},data:{config:{...source.config,priority:master.priority,wave:master.wave}}})}
 const defaults=JSON.parse(readFileSync('server/default-state.json','utf8'));
 const migrationKey='sqlite-to-postgres-v2';if(migrateLegacy&&!await db.migrationRecord.findUnique({where:{key:migrationKey}})){
 const path=resolve(process.env.RAILWAY_VOLUME_MOUNT_PATH||process.env.DATA_DIR||'data','career-atlas.sqlite');let state=defaults,sessionRows=[],collector=null,snapshot=null,feedJobs=[];

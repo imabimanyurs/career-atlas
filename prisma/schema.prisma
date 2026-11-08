@@ -254,6 +254,8 @@ model GovernmentNotice {
   requirements String @default("")
   reviewStatus String @default("Needs review")
   lastSeenAt DateTime @default(now())
+  deadlineEvidence String @default("")
+  lastVerifiedAt DateTime?
 }
 model MigrationRecord {
   key String @id

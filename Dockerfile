@@ -17,7 +17,7 @@ COPY --from=build /app/node_modules ./node_modules
 COPY --from=build /app/web-dist ./web-dist
 COPY --from=build /app/backend ./backend
 COPY --from=build /app/prisma ./prisma
-COPY package.json companies.json sources.v2.json ./
+COPY package.json companies.json company-registry.json government-sources.json sources.v2.json ./
 COPY server/default-state.json ./server/default-state.json
 EXPOSE 3000
 CMD ["node", "backend/start.mjs"]

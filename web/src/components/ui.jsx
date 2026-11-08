@@ -6,7 +6,7 @@ import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 export const cn=(...v)=>twMerge(clsx(v));
 const variants=cva('btn',{variants:{variant:{primary:'btn-primary',secondary:'btn-secondary',ghost:'btn-ghost',danger:'btn-danger'},size:{sm:'btn-sm',md:''}},defaultVariants:{variant:'secondary',size:'md'}});
-export function Button({variant,size,className,children,loading,...props}){return <button className={cn(variants({variant,size}),className)} disabled={loading||props.disabled} {...props}>{loading&&<LoaderCircle size={15} className="spin"/>}{children}</button>}
+export function Button({variant,size,className,children,loading,disabled,...props}){return <button className={cn(variants({variant,size}),className)} disabled={loading||disabled} {...props}>{loading&&<LoaderCircle size={15} className="spin"/>}{children}</button>}
 export function Badge({children,tone='neutral'}){return <span className={'badge badge-'+tone}>{children}</span>}
 export function Panel({children,className=''}){return <section className={'panel '+className}>{children}</section>}
 export function Field({label,children,hint}){return <label className="field"><span>{label}</span>{children}{hint&&<small>{hint}</small>}</label>}

@@ -34,3 +34,11 @@ prisma/schema.prisma and prisma/migrations: tracked relational schema.
 ## Scope limits
 
 Adding a company name does not establish an official source. The initial registry is intentionally bounded and must expand through verified sources. Browser-only Workday/custom sites can still fail or need site-specific adapters. Government PDF contents, automatic eligibility decisions, email notifications and a public registration flow are not implemented. The app remains one private owner workspace shared across signed-in devices.
+
+## Company scale and government curation
+
+company-registry.json contains all 403 company names with verified career URLs when known, ATS types, research priority, wave and notes. Wave 1 contains 100 priority-market research targets; this is not evidence of sponsorship or a completed scan. Blank URLs explicitly need verification. government-sources.json is a separate official-source registry. Existing private target priorities remain independent.
+
+Company browsing uses numbered pages with 12/24/48 rows. The company-options endpoint returns the complete lightweight name/id directory for referrals and source registration. Employer-owned HTML pages can discover exact linked Greenhouse/Lever/Ashby tenants; discovered boards retain the employer evidence URL and are added to the next queue cycle. Full public feeds are checked for liveness, while unchanged content skips match-score enrichment. Run counts distinguish new, changed and unchanged records.
+
+Government results, shortlists, admit cards and updates are archived automatically. The default view includes only recruitment with an evidenced future closing date and verification within 48 hours. Unknown deadlines and unparsed PDFs remain in Needs verification. Detail HTML is checked with bounded requests. Manual verification requires closing-date evidence. Verified engineering notices with an exact advertisement ID can also enter the shared Job model as government sources. The original notices remain accessible; nothing is deleted to clean the view.

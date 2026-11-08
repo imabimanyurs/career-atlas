@@ -89,30 +89,6 @@
       "allowedPaths": []
     },
     {
-      "company": "ISRO",
-      "url": "https://www.isro.gov.in/CurrentOpportunities.html",
-      "hosts": [
-        "www.isro.gov.in"
-      ],
-      "kind": "government",
-      "provider": "government",
-      "approved": true,
-      "ownershipEvidenceUrl": "https://www.isro.gov.in/CurrentOpportunities.html",
-      "allowedPaths": []
-    },
-    {
-      "company": "NIELIT",
-      "url": "https://www.nielit.in/chennai/recruitments",
-      "hosts": [
-        "www.nielit.in"
-      ],
-      "kind": "government",
-      "provider": "government",
-      "approved": true,
-      "ownershipEvidenceUrl": "https://www.nielit.in/chennai/recruitments",
-      "allowedPaths": []
-    },
-    {
       "company": "OpenAI",
       "provider": "ashby",
       "url": "https://jobs.ashbyhq.com/openai",
@@ -167,60 +143,56 @@
       ]
     },
     {
-      "company": "BEL",
-      "url": "https://bel-india.in/job-notifications/",
+      "company": "Figma",
+      "url": "https://boards.greenhouse.io/figma/",
+      "provider": "greenhouse",
+      "tenant": "figma",
       "hosts": [
-        "bel-india.in",
-        "www.bel-india.in"
+        "boards.greenhouse.io",
+        "job-boards.greenhouse.io"
       ],
-      "ownershipEvidenceUrl": "https://bel-india.in/job-notifications/",
-      "kind": "government",
-      "provider": "government",
+      "allowedPaths": [
+        "/figma/"
+      ],
+      "ownershipEvidenceUrl": "https://www.figma.com/careers/",
       "approved": true,
-      "allowedPaths": []
+      "kind": "company"
     },
     {
-      "company": "BHEL",
-      "url": "https://careers.bhel.in/",
+      "company": "Cloudflare",
+      "url": "https://www.cloudflare.com/careers/jobs/",
+      "provider": "html",
       "hosts": [
-        "careers.bhel.in",
-        "www.bhel.com",
-        "bhel.com"
+        "www.cloudflare.com"
       ],
-      "ownershipEvidenceUrl": "https://www.bhel.com/recruitment",
-      "kind": "government",
-      "provider": "government",
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.cloudflare.com/careers/jobs/",
       "approved": true,
-      "allowedPaths": []
+      "kind": "company"
     },
     {
-      "company": "ECIL",
-      "url": "https://www.ecil.co.in/jobopenings",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/all-jobs/",
+      "provider": "html",
       "hosts": [
-        "www.ecil.co.in",
-        "ecil.co.in"
+        "careers.datadoghq.com"
       ],
-      "ownershipEvidenceUrl": "https://www.ecil.co.in/jobopenings",
-      "kind": "government",
-      "provider": "government",
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://careers.datadoghq.com/all-jobs/",
       "approved": true,
-      "allowedPaths": []
+      "kind": "company"
     },
     {
-      "company": "C-DAC",
-      "url": "https://www.cdac.in/index.aspx?id=current_jobs",
+      "company": "GitLab",
+      "url": "https://about.gitlab.com/jobs/",
+      "provider": "html",
       "hosts": [
-        "www.cdac.in",
-        "cdac.in",
-        "www.cdac.gov.in",
-        "cdac.gov.in",
-        "careers.cdac.in"
+        "about.gitlab.com"
       ],
-      "ownershipEvidenceUrl": "https://www.cdac.in/index.aspx?id=current_jobs",
-      "kind": "government",
-      "provider": "government",
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://about.gitlab.com/jobs/",
       "approved": true,
-      "allowedPaths": []
+      "kind": "company"
     }
   ]
 }
