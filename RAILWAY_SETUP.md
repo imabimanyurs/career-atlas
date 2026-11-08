@@ -1,3 +1,5 @@
+> Historical v1 document. The deployed v2 architecture and source policy are documented in [UPGRADE_V2.md](UPGRADE_V2.md) and [README.md](README.md). Employer-authorised ATS portals are accepted.
+
 # Railway deployment
 
 The repository contains a dependency-free Node 24 backend, SQLite persistence and a private frontend. Dockerfile plus railway.json replace the previous static-only build setup.

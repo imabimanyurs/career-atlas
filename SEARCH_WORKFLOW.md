@@ -1,3 +1,5 @@
+> Historical v1 document. The deployed v2 architecture and source policy are documented in [UPGRADE_V2.md](UPGRADE_V2.md) and [README.md](README.md). Employer-authorised ATS portals are accepted.
+
 # Daily search and publishing
 
 Read companies.json for the complete 403-company target list. Search Software Engineer, Full-stack Developer/Engineer, Java Developer and React Developer roles. Prioritise Germany, Netherlands and Ireland; consider UK, Sweden, Denmark, Switzerland, Canada and Australia. Use the candidate preferences supplied privately to the scheduled task. Do not commit a personal candidate profile.

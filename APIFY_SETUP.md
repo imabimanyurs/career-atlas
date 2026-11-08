@@ -1,3 +1,5 @@
+> Historical v1 document. The deployed v2 architecture and source policy are documented in [UPGRADE_V2.md](UPGRADE_V2.md) and [README.md](README.md). Employer-authorised ATS portals are accepted.
+
 # Direct-career collector
 
 Set APIFY_TOKEN on the existing Railway career-atlas service. The backend uses Apify's official apify/cheerio-scraper Actor, authenticating only through an Authorization header. Secrets are not sent in Actor input, returned from the app or stored in GitHub.
