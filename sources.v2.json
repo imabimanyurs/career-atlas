@@ -193,6 +193,1670 @@
       "ownershipEvidenceUrl": "https://about.gitlab.com/jobs/",
       "approved": true,
       "kind": "company"
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "algolia",
+      "url": "https://job-boards.greenhouse.io/algolia/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/algolia/"
+      ],
+      "ownershipEvidenceUrl": "https://www.algolia.com/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "Algolia",
+      "config": {
+        "priority": 2,
+        "wave": 2
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "n26",
+      "url": "https://job-boards.greenhouse.io/n26/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/n26/"
+      ],
+      "ownershipEvidenceUrl": "https://n26.com/en-eu",
+      "approved": true,
+      "kind": "company",
+      "company": "N26",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "provider": "ashby",
+      "tenant": "anyscale",
+      "url": "https://jobs.ashbyhq.com/anyscale/",
+      "hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "allowedPaths": [
+        "/anyscale/"
+      ],
+      "ownershipEvidenceUrl": "https://www.anyscale.com/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "Anyscale",
+      "config": {
+        "priority": 2,
+        "wave": 2
+      }
+    },
+    {
+      "provider": "ashby",
+      "tenant": "consensys",
+      "url": "https://jobs.ashbyhq.com/consensys/",
+      "hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "allowedPaths": [
+        "/consensys/"
+      ],
+      "ownershipEvidenceUrl": "https://consensys.com/",
+      "approved": true,
+      "kind": "company",
+      "company": "Consensys",
+      "config": {
+        "priority": 2,
+        "wave": 2
+      }
+    },
+    {
+      "provider": "ashby",
+      "tenant": "cohere",
+      "url": "https://jobs.ashbyhq.com/cohere/",
+      "hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "allowedPaths": [
+        "/cohere/"
+      ],
+      "ownershipEvidenceUrl": "https://cohere.com/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "Cohere",
+      "config": {
+        "priority": 2,
+        "wave": 2
+      }
+    },
+    {
+      "provider": "ashby",
+      "tenant": "amplitude",
+      "url": "https://jobs.ashbyhq.com/amplitude/",
+      "hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "allowedPaths": [
+        "/amplitude/"
+      ],
+      "ownershipEvidenceUrl": "https://amplitude.com/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "Amplitude",
+      "config": {
+        "priority": 2,
+        "wave": 2
+      }
+    },
+    {
+      "provider": "ashby",
+      "tenant": "uipath",
+      "url": "https://jobs.ashbyhq.com/uipath/",
+      "hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "allowedPaths": [
+        "/uipath/"
+      ],
+      "ownershipEvidenceUrl": "https://www.uipath.com/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "UiPath",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "provider": "ashby",
+      "tenant": "notion",
+      "url": "https://jobs.ashbyhq.com/notion/",
+      "hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "allowedPaths": [
+        "/notion/"
+      ],
+      "ownershipEvidenceUrl": "https://www.notion.com/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "Notion",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "provider": "ashby",
+      "tenant": "applied",
+      "url": "https://jobs.ashbyhq.com/applied/",
+      "hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "allowedPaths": [
+        "/applied/"
+      ],
+      "ownershipEvidenceUrl": "https://www.appliedintuition.com/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "Applied Intuition",
+      "config": {
+        "priority": 2,
+        "wave": 2
+      }
+    },
+    {
+      "provider": "lever",
+      "tenant": "grailbio",
+      "url": "https://jobs.lever.co/grailbio/",
+      "hosts": [
+        "jobs.lever.co"
+      ],
+      "allowedPaths": [
+        "/grailbio/"
+      ],
+      "ownershipEvidenceUrl": "https://grail.com/",
+      "approved": true,
+      "kind": "company",
+      "company": "GRAIL",
+      "config": {
+        "priority": 2,
+        "wave": 2
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "hrttalentcommunity",
+      "url": "https://job-boards.greenhouse.io/hrttalentcommunity/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/hrttalentcommunity/"
+      ],
+      "ownershipEvidenceUrl": "https://www.hudsonrivertrading.com/careers/",
+      "approved": true,
+      "kind": "company",
+      "company": "Hudson River Trading",
+      "config": {
+        "priority": 2,
+        "wave": 2
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "inflectionai",
+      "url": "https://job-boards.greenhouse.io/inflectionai/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/inflectionai/"
+      ],
+      "ownershipEvidenceUrl": "https://inflection.ai/about#careers",
+      "approved": true,
+      "kind": "company",
+      "company": "Inflection",
+      "config": {
+        "priority": 2,
+        "wave": 2
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "lattice",
+      "url": "https://job-boards.greenhouse.io/lattice/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/lattice/"
+      ],
+      "ownershipEvidenceUrl": "https://lattice.com/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "Lattice",
+      "config": {
+        "priority": 2,
+        "wave": 2
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "mercury",
+      "url": "https://job-boards.greenhouse.io/mercury/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/mercury/"
+      ],
+      "ownershipEvidenceUrl": "https://mercury.com/jobs",
+      "approved": true,
+      "kind": "company",
+      "company": "Mercury",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "carta",
+      "url": "https://job-boards.greenhouse.io/carta/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/carta/"
+      ],
+      "ownershipEvidenceUrl": "https://carta.com/careers/",
+      "approved": true,
+      "kind": "company",
+      "company": "Carta",
+      "config": {
+        "priority": 2,
+        "wave": 2
+      }
+    },
+    {
+      "provider": "ashby",
+      "tenant": "you-health",
+      "url": "https://jobs.ashbyhq.com/you-health/",
+      "hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "allowedPaths": [
+        "/you-health/"
+      ],
+      "ownershipEvidenceUrl": "https://www.hims.com/careers-providers",
+      "approved": true,
+      "kind": "company",
+      "company": "Hims And Hers",
+      "config": {
+        "priority": 2,
+        "wave": 2
+      }
+    },
+    {
+      "provider": "ashby",
+      "tenant": "midjourney",
+      "url": "https://jobs.ashbyhq.com/midjourney/",
+      "hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "allowedPaths": [
+        "/midjourney/"
+      ],
+      "ownershipEvidenceUrl": "https://www.midjourney.com/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "Midjourney",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "provider": "ashby",
+      "tenant": "runway-ml",
+      "url": "https://jobs.ashbyhq.com/runway-ml/",
+      "hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "allowedPaths": [
+        "/runway-ml/"
+      ],
+      "ownershipEvidenceUrl": "https://runway.com/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "Runway",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "provider": "ashby",
+      "tenant": "Mapbox",
+      "url": "https://jobs.ashbyhq.com/Mapbox/",
+      "hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "allowedPaths": [
+        "/Mapbox/"
+      ],
+      "ownershipEvidenceUrl": "https://www.mapbox.com/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "Mapbox",
+      "config": {
+        "priority": 2,
+        "wave": 2
+      }
+    },
+    {
+      "provider": "ashby",
+      "tenant": "hims-and-hers",
+      "url": "https://jobs.ashbyhq.com/hims-and-hers/",
+      "hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "allowedPaths": [
+        "/hims-and-hers/"
+      ],
+      "ownershipEvidenceUrl": "https://www.hims.com/careers-professionals",
+      "approved": true,
+      "kind": "company",
+      "company": "Hims And Hers",
+      "config": {
+        "priority": 2,
+        "wave": 2
+      }
+    },
+    {
+      "provider": "lever",
+      "tenant": "ro",
+      "url": "https://jobs.lever.co/ro/",
+      "hosts": [
+        "jobs.lever.co"
+      ],
+      "allowedPaths": [
+        "/ro/"
+      ],
+      "ownershipEvidenceUrl": "https://ro.co/careers/",
+      "approved": true,
+      "kind": "company",
+      "company": "Ro",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "aechelontechnology",
+      "url": "https://job-boards.greenhouse.io/aechelontechnology/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/aechelontechnology/"
+      ],
+      "ownershipEvidenceUrl": "https://shield.ai/careers/",
+      "approved": true,
+      "kind": "company",
+      "company": "Shield AI",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "virtu",
+      "url": "https://job-boards.greenhouse.io/virtu/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/virtu/"
+      ],
+      "ownershipEvidenceUrl": "https://www.virtu.com/careers/",
+      "approved": true,
+      "kind": "company",
+      "company": "Virtu Financial",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "recursionpharmaceuticals",
+      "url": "https://job-boards.greenhouse.io/recursionpharmaceuticals/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/recursionpharmaceuticals/"
+      ],
+      "ownershipEvidenceUrl": "https://recursion.com/",
+      "approved": true,
+      "kind": "company",
+      "company": "Recursion Pharmaceuticals",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "razorpaysoftwareprivatelimited",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/razorpaysoftwareprivatelimited/"
+      ],
+      "ownershipEvidenceUrl": "https://razorpay.com/careers/",
+      "approved": true,
+      "kind": "company",
+      "company": "Razorpay",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "tripadvisor",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/tripadvisor/"
+      ],
+      "ownershipEvidenceUrl": "https://careers.tripadvisor.com",
+      "approved": true,
+      "kind": "company",
+      "company": "Tripadvisor",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "togetherai",
+      "url": "https://job-boards.greenhouse.io/togetherai/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/togetherai/"
+      ],
+      "ownershipEvidenceUrl": "https://www.together.ai/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "Together AI",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "tenstorrent",
+      "url": "https://job-boards.greenhouse.io/tenstorrent/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/tenstorrent/"
+      ],
+      "ownershipEvidenceUrl": "https://tenstorrent.com/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "Tenstorrent",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "reddit",
+      "url": "https://job-boards.greenhouse.io/reddit/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/reddit/"
+      ],
+      "ownershipEvidenceUrl": "https://redditinc.com/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "Reddit",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "provider": "greenhouse",
+      "tenant": "xai",
+      "url": "https://job-boards.greenhouse.io/xai/",
+      "hosts": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "allowedPaths": [
+        "/xai/"
+      ],
+      "ownershipEvidenceUrl": "https://x.ai/careers",
+      "approved": true,
+      "kind": "company",
+      "company": "xAI",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "provider": "ashby",
+      "tenant": "zapier",
+      "url": "https://jobs.ashbyhq.com/zapier/",
+      "hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "allowedPaths": [
+        "/zapier/"
+      ],
+      "ownershipEvidenceUrl": "https://zapier.com/jobs",
+      "approved": true,
+      "kind": "company",
+      "company": "Zapier",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "provider": "lever",
+      "tenant": "shieldai",
+      "url": "https://jobs.lever.co/shieldai/",
+      "hosts": [
+        "jobs.lever.co"
+      ],
+      "allowedPaths": [
+        "/shieldai/"
+      ],
+      "ownershipEvidenceUrl": "https://shield.ai/",
+      "approved": true,
+      "kind": "company",
+      "company": "Shield AI",
+      "config": {
+        "priority": 3,
+        "wave": 3
+      }
+    },
+    {
+      "company": "Atlassian",
+      "url": "https://www.atlassian.com/company/careers/all-jobs",
+      "provider": "html",
+      "hosts": [
+        "www.atlassian.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.atlassian.com/company/careers",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "AVEVA",
+      "url": "https://www.aveva.com/en/about/careers/",
+      "provider": "html",
+      "hosts": [
+        "www.aveva.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.aveva.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "ASML",
+      "url": "https://www.asml.com/en/careers",
+      "provider": "html",
+      "hosts": [
+        "www.asml.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.asml.com/en",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "AMD",
+      "url": "https://www.amd.com/en/corporate/careers.html",
+      "provider": "html",
+      "hosts": [
+        "www.amd.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.amd.com/en.html",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "BCG",
+      "url": "https://careers.bcg.com/global/en/",
+      "provider": "html",
+      "hosts": [
+        "careers.bcg.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.bcg.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Bolt",
+      "url": "https://bolt.eu/en/careers/",
+      "provider": "html",
+      "hosts": [
+        "bolt.eu"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://bolt.eu/en/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "BlackRock",
+      "url": "https://careers.blackrock.com/search-jobs",
+      "provider": "html",
+      "hosts": [
+        "careers.blackrock.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://careers.blackrock.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "American Express",
+      "url": "https://www.americanexpress.com/en-us/careers/?inav=en_in_footer_company_information_careers",
+      "provider": "html",
+      "hosts": [
+        "www.americanexpress.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://americanexpress.bank.in/en-in/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Capgemini",
+      "url": "https://www.capgemini.com/careers/",
+      "provider": "html",
+      "hosts": [
+        "www.capgemini.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.capgemini.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Databricks",
+      "url": "https://www.databricks.com/company/careers/open-positions",
+      "provider": "html",
+      "hosts": [
+        "www.databricks.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.databricks.com/company/careers",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "CGI",
+      "url": "https://www.cgi.com/en/careers",
+      "provider": "html",
+      "hosts": [
+        "www.cgi.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.cgi.com/en",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Deel",
+      "url": "https://www.deel.com/careers/",
+      "provider": "html",
+      "hosts": [
+        "www.deel.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.deel.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Confluent",
+      "url": "https://www.ibm.com/careers/search?q=confluent",
+      "provider": "html",
+      "hosts": [
+        "www.ibm.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.confluent.io/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Docker Inc.",
+      "url": "https://www.docker.com/careers/",
+      "provider": "html",
+      "hosts": [
+        "www.docker.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.docker.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Electronic Arts",
+      "url": "https://www.ea.com/careers",
+      "provider": "html",
+      "hosts": [
+        "www.ea.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.ea.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "eBay",
+      "url": "https://careers.ebayinc.com/",
+      "provider": "html",
+      "hosts": [
+        "careers.ebayinc.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.ebayinc.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Deloitte",
+      "url": "https://southasiacareers.deloitte.com/",
+      "provider": "html",
+      "hosts": [
+        "southasiacareers.deloitte.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.deloitte.com/in/en.html",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Deliveroo",
+      "url": "https://careers.deliveroo.co.uk",
+      "provider": "html",
+      "hosts": [
+        "careers.deliveroo.co.uk"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://deliveroo.co.uk/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Elastic",
+      "url": "https://www.elastic.co/careers",
+      "provider": "html",
+      "hosts": [
+        "www.elastic.co"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.elastic.co/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Equinix",
+      "url": "https://careers.equinix.com/jobs/search",
+      "provider": "html",
+      "hosts": [
+        "careers.equinix.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://careers.equinix.com/homepage",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Deutsche Bank",
+      "url": "https://careers.db.com/index?language_id=1",
+      "provider": "html",
+      "hosts": [
+        "careers.db.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.db.com:443/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Cognizant",
+      "url": "https://careers.cognizant.com/india-en/jobs/",
+      "provider": "html",
+      "hosts": [
+        "careers.cognizant.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://careers.cognizant.com/india-en/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Expedia",
+      "url": "https://careers.expediagroup.com/jobs/?filter%5Bcategory%5D=Product",
+      "provider": "html",
+      "hosts": [
+        "careers.expediagroup.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://careers.expediagroup.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Disney",
+      "url": "https://join.disneycareers.com/global/en/home",
+      "provider": "html",
+      "hosts": [
+        "join.disneycareers.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://thewaltdisneycompany.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Dropbox",
+      "url": "https://www.dropbox.jobs/en/jobs/",
+      "provider": "html",
+      "hosts": [
+        "www.dropbox.jobs"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.dropbox.jobs/en/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Figma",
+      "url": "https://www.figma.com/careers/#main",
+      "provider": "html",
+      "hosts": [
+        "www.figma.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.figma.com/careers/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "EY",
+      "url": "https://www.ey.com/en_uk/careers",
+      "provider": "html",
+      "hosts": [
+        "www.ey.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.ey.com/en_uk",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Goldman Sachs",
+      "url": "https://www.goldmansachs.com/careers",
+      "provider": "html",
+      "hosts": [
+        "www.goldmansachs.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.goldmansachs.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Grammarly",
+      "url": "https://www.grammarly.com/career-guides",
+      "provider": "html",
+      "hosts": [
+        "www.grammarly.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.grammarly.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Ericsson",
+      "url": "https://jobs.ericsson.com/careers",
+      "provider": "html",
+      "hosts": [
+        "jobs.ericsson.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.ericsson.com/en",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Freshworks",
+      "url": "https://www.freshworks.com/company/careers/",
+      "provider": "html",
+      "hosts": [
+        "www.freshworks.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.freshworks.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Infosys",
+      "url": "https://www.infosys.com:443/careers/",
+      "provider": "html",
+      "hosts": [
+        "www.infosys.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.infosys.com:443/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "JetBrains",
+      "url": "https://www.jetbrains.com/careers/jobs/",
+      "provider": "html",
+      "hosts": [
+        "www.jetbrains.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.jetbrains.com/careers/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "HubSpot",
+      "url": "https://www.hubspot.com/careers/jobs?hubs_signup-cta=careers-nav-cta&page=1",
+      "provider": "html",
+      "hosts": [
+        "www.hubspot.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.hubspot.com/careers",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "HSBC",
+      "url": "https://www.hsbc.com/careers",
+      "provider": "html",
+      "hosts": [
+        "www.hsbc.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.hsbc.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "JPMorgan",
+      "url": "https://www.jpmorganchase.com/careers",
+      "provider": "html",
+      "hosts": [
+        "www.jpmorganchase.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.jpmorganchase.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Intel",
+      "url": "https://www.intel.com/content/www/us/en/jobs/benefits.html",
+      "provider": "html",
+      "hosts": [
+        "www.intel.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.intel.com/content/www/us/en/jobs/life-at-intel.html",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Just Eat Takeaway",
+      "url": "https://careers.justeattakeaway.com/global/en",
+      "provider": "html",
+      "hosts": [
+        "careers.justeattakeaway.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://justeattakeaway.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "KPMG",
+      "url": "https://kpmg.com/xx/en/careers.html",
+      "provider": "html",
+      "hosts": [
+        "kpmg.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://kpmg.com/xx/en.html",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Miro",
+      "url": "https://miro.com/careers/open-positions/",
+      "provider": "html",
+      "hosts": [
+        "miro.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://miro.com/careers/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Klarna",
+      "url": "https://www.klarna.com/international/careers/",
+      "provider": "html",
+      "hosts": [
+        "www.klarna.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.klarna.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "McKinsey",
+      "url": "https://www.mckinsey.com/careers/search-jobs",
+      "provider": "html",
+      "hosts": [
+        "www.mckinsey.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.mckinsey.com/careers/home",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Intuit",
+      "url": "https://www.intuit.com/careers/",
+      "provider": "html",
+      "hosts": [
+        "www.intuit.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.intuit.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "MongoDB",
+      "url": "https://www.mongodb.com/company/careers",
+      "provider": "html",
+      "hosts": [
+        "www.mongodb.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.mongodb.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Morgan Stanley",
+      "url": "https://www.morganstanley.com/careers/career-opportunities-search",
+      "provider": "html",
+      "hosts": [
+        "www.morganstanley.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.morganstanley.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Nokia",
+      "url": "https://www.nokia.com/careers/",
+      "provider": "html",
+      "hosts": [
+        "www.nokia.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.nokia.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Microsoft",
+      "url": "https://careers.microsoft.com/v2/global/en/home.html",
+      "provider": "html",
+      "hosts": [
+        "careers.microsoft.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.microsoft.com/en-in",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Okta",
+      "url": "https://www.okta.com/company/careers/",
+      "provider": "html",
+      "hosts": [
+        "www.okta.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.okta.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Mastercard",
+      "url": "https://careers.mastercard.com/us/en",
+      "provider": "html",
+      "hosts": [
+        "careers.mastercard.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.mastercard.com/in/en.html",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "N26",
+      "url": "https://n26.com/en-eu/careers",
+      "provider": "html",
+      "hosts": [
+        "n26.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://n26.com/en-eu",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Netflix",
+      "url": "https://jobs.netflix.com/",
+      "provider": "html",
+      "hosts": [
+        "jobs.netflix.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.netflix.com/in/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Nvidia",
+      "url": "https://www.nvidia.com/en-in/about-nvidia/careers/",
+      "provider": "html",
+      "hosts": [
+        "www.nvidia.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.nvidia.com/en-in/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Notion",
+      "url": "https://www.notion.com/careers",
+      "provider": "html",
+      "hosts": [
+        "www.notion.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.notion.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "OpenAI",
+      "url": "https://openai.com/careers/",
+      "provider": "html",
+      "hosts": [
+        "openai.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://openai.com/careers/search/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "PayPal",
+      "url": "https://careers.pypl.com/home/",
+      "provider": "html",
+      "hosts": [
+        "careers.pypl.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.paypal.com/in/home",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Stripe",
+      "url": "https://stripe.com/careers",
+      "provider": "html",
+      "hosts": [
+        "stripe.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://stripe.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Shopify",
+      "url": "https://www.shopify.com/careers",
+      "provider": "html",
+      "hosts": [
+        "www.shopify.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.shopify.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Uber",
+      "url": "https://jobs.uber.com/en/",
+      "provider": "html",
+      "hosts": [
+        "jobs.uber.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.uber.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Snowflake",
+      "url": "https://careers.snowflake.com/us/en",
+      "provider": "html",
+      "hosts": [
+        "careers.snowflake.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.snowflake.com/en/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Thoughtworks",
+      "url": "https://www.thoughtworks.com/careers/jobs",
+      "provider": "html",
+      "hosts": [
+        "www.thoughtworks.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.thoughtworks.com/careers",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "ServiceNow",
+      "url": "https://careers.servicenow.com/jobs/",
+      "provider": "html",
+      "hosts": [
+        "careers.servicenow.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://careers.servicenow.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "UiPath",
+      "url": "https://www.uipath.com/careers",
+      "provider": "html",
+      "hosts": [
+        "www.uipath.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.uipath.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Workday",
+      "url": "https://www.workday.com/en-us/company/careers/overview.html",
+      "provider": "html",
+      "hosts": [
+        "www.workday.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.workday.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Zendesk",
+      "url": "https://www.zendesk.com/company/careers/",
+      "provider": "html",
+      "hosts": [
+        "www.zendesk.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.zendesk.com/",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Salesforce",
+      "url": "https://trailhead.salesforce.com/career-path/",
+      "provider": "html",
+      "hosts": [
+        "trailhead.salesforce.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.salesforce.com/in/?ir=1&bc=OTH",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
     }
   ]
 }
