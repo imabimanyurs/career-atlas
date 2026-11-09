@@ -79,6 +79,32 @@
       "provider": "government",
       "approved": true,
       "allowedPaths": []
+    },
+    {
+      "company": "ISRO",
+      "url": "https://www.isro.gov.in/ViewAllOpportunities.html",
+      "provider": "government",
+      "kind": "government",
+      "hosts": [
+        "www.isro.gov.in"
+      ],
+      "allowedPaths": [],
+      "approved": true,
+      "ownershipEvidenceUrl": "https://www.isro.gov.in/ViewAllOpportunities.html",
+      "notes": "Official opportunity table includes current and historical records. Verify each advertisement, deadline and qualifications before admission."
+    },
+    {
+      "company": "NIELIT",
+      "url": "https://www.nielit.in/delhi/recruitments",
+      "provider": "government",
+      "kind": "government",
+      "hosts": [
+        "www.nielit.in"
+      ],
+      "allowedPaths": [],
+      "approved": true,
+      "ownershipEvidenceUrl": "https://www.nielit.in/delhi/recruitments",
+      "notes": "Official Delhi recruitment index; historical entries are present. No November programmer posting was verified; each notice needs a separate check."
     }
   ]
 }
