@@ -105,6 +105,19 @@
       "approved": true,
       "ownershipEvidenceUrl": "https://www.nielit.in/delhi/recruitments",
       "notes": "Official Delhi recruitment index; historical entries are present. No November programmer posting was verified; each notice needs a separate check."
+    },
+    {
+      "company": "POWERGRID",
+      "url": "https://www.powergrid.in/en/job-opportunities",
+      "provider": "government",
+      "kind": "government",
+      "hosts": [
+        "www.powergrid.in"
+      ],
+      "allowedPaths": [],
+      "approved": true,
+      "ownershipEvidenceUrl": "https://www.powergrid.in/en/job-opportunities",
+      "notes": "Official PSU job opportunities index. Exclude results, expired notices and future application windows from active opportunities; verify each notice separately."
     }
   ]
 }
