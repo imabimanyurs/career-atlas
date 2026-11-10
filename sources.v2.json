@@ -1970,6 +1970,80 @@
         "wave": 1
       },
       "notes": "Employer careers page links this exact Workday tenant. Public jobs endpoint returned the tenant vacancy list. Original publication dates are not inferred from relative labels or startDate."
+    },
+    {
+      "company": "Accenture",
+      "url": "https://www.accenture.com/gb-en/careers",
+      "provider": "html",
+      "hosts": [
+        "www.accenture.com"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.accenture.com/en",
+      "approved": true,
+      "kind": "company",
+      "config": {
+        "priority": 1,
+        "wave": 1
+      }
+    },
+    {
+      "company": "Spotify",
+      "url": "https://jobs.lever.co/spotify/",
+      "provider": "lever",
+      "tenant": "spotify",
+      "kind": "company",
+      "hosts": [
+        "jobs.lever.co"
+      ],
+      "allowedPaths": [
+        "/spotify/"
+      ],
+      "approved": true,
+      "ownershipEvidenceUrl": "https://www.lifeatspotify.com/jobs/backend-engineer-subscriptions",
+      "notes": "Spotify corporate contact page links lifeatspotify.com; its published job data identifies this exact Lever tenant."
+    },
+    {
+      "company": "Spotify",
+      "url": "https://www.lifeatspotify.com/jobs",
+      "provider": "html",
+      "kind": "company",
+      "hosts": [
+        "www.lifeatspotify.com"
+      ],
+      "allowedPaths": [
+        "/jobs"
+      ],
+      "approved": true,
+      "ownershipEvidenceUrl": "https://www.spotify.com/us/about-us/contact/",
+      "notes": "Spotify corporate contact page links this official careers portal. Exact embedded Lever tenant separately verified."
+    },
+    {
+      "company": "Revolut",
+      "url": "https://www.revolut.com/careers/team/engineering/",
+      "provider": "html",
+      "kind": "company",
+      "hosts": [
+        "www.revolut.com"
+      ],
+      "allowedPaths": [
+        "/careers/"
+      ],
+      "approved": true,
+      "ownershipEvidenceUrl": "https://www.revolut.com/careers/team/engineering/",
+      "notes": "Official employer engineering careers page and an active Java role checked. Multi-country role not admitted without a selected-market location."
+    },
+    {
+      "company": "Grab",
+      "url": "https://www.grab.careers/en/jobs/",
+      "provider": "html",
+      "hosts": [
+        "www.grab.careers"
+      ],
+      "allowedPaths": [],
+      "ownershipEvidenceUrl": "https://www.grab.careers/en/",
+      "approved": true,
+      "kind": "company"
     }
   ]
 }
